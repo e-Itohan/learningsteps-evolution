@@ -1,0 +1,7 @@
+# trivyignore — suppressing validated false positives
+# Source: pip's internal vendored libraries in python:3.13-slim base image
+# Verification: pip list in container shows patched versions; base-only scan confirms no user-space vulns
+GHSA-6v7p-g79w-8964     # msgpack vendored in pip/_vendor (installed 1.2.3)
+CVE-2025-47273          # setuptools vendored in pip/_vendor (installed 84.0.0)
+CVE-2026-97687          # urllib3 vendored in pip/_vendor (installed 2.8.0)
+CVE-2026-97689          # urllib3 vendored in pip/_vendor (installed 2.8.0)
