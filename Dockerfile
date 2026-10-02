@@ -1,14 +1,13 @@
 FROM python:3.13-slim
 
-RUN apt-get update && apt-get upgrade -y && rm -rf /var/lib/apt/lists/*
+RUN apt-get update && \
+    apt-get upgrade -y --only-upgrade libpcre2-8-0 && \
+    rm -rf /var/lib/apt/lists/*
 
 WORKDIR /FastAPI
 
 COPY api/requirements.txt .
-
-RUN apt-get update && \
-    apt-get upgrade -y --only-upgrade libpcre2-8-0 && \
-    rm -rf /var/lib/apt/lists/*
+RUN pip install --no-cache-dir -r requirements.txt
 
 COPY api/ .
 
