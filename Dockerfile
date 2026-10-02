@@ -6,7 +6,9 @@ WORKDIR /FastAPI
 
 COPY api/requirements.txt .
 
-RUN pip install --no-cache-dir -r requirements.txt
+RUN apt-get update && \
+    apt-get upgrade -y --only-upgrade libpcre2-8-0 && \
+    rm -rf /var/lib/apt/lists/*
 
 COPY api/ .
 
