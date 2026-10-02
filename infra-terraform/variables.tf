@@ -6,7 +6,7 @@ variable "subscription_id" {
 
 variable "prefix" {
   type    = string
-  default = "learningstepsmf"
+  default = "learningstepsenilqm"
 }
 
 variable "location" {
@@ -26,7 +26,7 @@ variable "db_admin" {
 variable "db_password" {
   type      = string
   sensitive = true          # hidden in plan output / logs
-  default = "SuperStr0ngP@$$"
+  default = "Str0ng-p@ssw0rd24"
 }
 
 variable "kv_name" {
