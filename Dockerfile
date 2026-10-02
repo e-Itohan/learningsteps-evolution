@@ -1,5 +1,7 @@
 FROM python:3.13-slim
 
+RUN apt-get update && apt-get upgrade -y && rm -rf /var/lib/apt/lists/*
+
 WORKDIR /FastAPI
 
 COPY api/requirements.txt .
