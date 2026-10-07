@@ -4,6 +4,26 @@ A FastAPI application deployed to Azure Kubernetes Service, with infrastructure 
 
 This README is the onboarding guide: follow it to reproduce the whole deployment on **your own** Azure subscription.
 
+---
+
+## 🔄 Trilogy Context
+
+This project is **Phase 3** of the LearningSteps series. Compare with:
+
+| Project | Cloud Provider | Approach | Complexity |
+|---------|---------------|----------|------------|
+| **[Origins](https://github.com/e-Itohan/learningsteps-origins)** | Azure | Manual | Foundational |
+| **[Amazon Forest](https://github.com/e-Itohan/amazon-forest)** | AWS | Manual | Cross-cloud validation |
+| **[Evolution](./README.md)** | Azure | Automated (Terraform + K8s) | DevSecOps pipeline |
+
+---
+
+## Why This Progression Matters
+
+Many candidates show **one** cloud project. Showing the same architecture across **three implementations** demonstrates:
+1. **Pattern mastery** — not just memorizing one platform
+2. **Multi-cloud fluency** — Azure + AWS versatility
+3. **Evolution thinking** — manual → automated is the real-world journey
 
 ---
 
