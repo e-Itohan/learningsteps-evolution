@@ -8,7 +8,7 @@ This README is the onboarding guide: follow it to reproduce the whole deployment
 
 ## 🔄 Trilogy Context
 
-This project is **Phase 3** of the LearningSteps series. Compare with:
+This project is **Phase 2** of the LearningSteps series and **Part 3** of the Cloud Security Trilogy. Compare with:
 
 | Project | Cloud Provider | Approach | Complexity |
 |---------|---------------|----------|------------|
@@ -24,6 +24,11 @@ Many candidates show **one** cloud project. Showing the same architecture across
 1. **Pattern mastery** — not just memorizing one platform
 2. **Multi-cloud fluency** — Azure + AWS versatility
 3. **Evolution thinking** — manual → automated is the real-world journey
+
+---
+
+## 📃 Full Report
+[View](https://github.com/e-Itohan/e-Itohan/blob/main/reports/LearningSteps_Evolution.pdf)
 
 ---
 
