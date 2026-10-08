@@ -1,4 +1,4 @@
-# LearningSteps — Evolution
+# LearningSteps - Evolution
 
 A FastAPI application deployed to Azure Kubernetes Service, with infrastructure defined as code and a security-gated CI/CD pipeline.
 
